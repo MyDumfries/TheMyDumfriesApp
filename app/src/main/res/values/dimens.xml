@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Heading">16pt</dimen>
+    <dimen name="Heading2">10pt</dimen>
+    <dimen name="menuitem">12pt</dimen> 
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="categories">
+  <item>"Categories"</item>
+  <item>"Within XXXm"</item>
+  <item>"Accountants"</item>
+  <item>"Babies"</item>
+  <item>"Bakers"</item>
+  <item>"Banks"</item>
+  <item>"Bathrooms"</item>
+  <item>"Bicycles"</item>
+  <item>"Bookmakers"</item>
+  <item>"Books"</item>
+  <item>"Builders"</item>
+  <item>"Burns"</item>
+  <item>"Business Services"</item> 
+  <item>"Butchers"</item>
+  <item>"Car Hire"</item>
+  <item>"Car Parks"</item>
+  <item>"Car Repairs"</item>
+  <item>"Car Sales"</item>
+  <item>"Caravans"</item>
+  <item>"Cards"</item>
+  <item>"Carpets"</item>
+  <item>"Cash Dispensers"</item>
+  <item>"Catalogue Shops"</item>
+  <item>"Charity Shops"</item> 
+  <item>"Cheap"</item>
+  <item>"Chemists"</item>
+  <item>"Child Care"</item>
+  <item>"Childrens"</item>
+  <item>"Churches"</item>
+  <item>"Clothing"</item>
+  <item>"Cobblers"</item>
+  <item>"Computer Games"</item>
+  <item>"Computers"</item>
+  <item>"Crafts"</item>
+  <item>"D.I.Y."</item>
+  <item>"Dentist"</item>
+  <item>"Doctors"</item>
+  <item>"E-Cigarettes"</item>
+  <item>"Education"</item>
+  <item>"Electrical"</item>
+  <item>"Emergency"</item>
+  <item>"Employment"</item>
+  <item>"Entertainment"</item> 
+  <item>"Estate Agents"</item>
+  <item>"Financial Advice"</item> 
+  <item>"Flowers"</item>
+  <item>"Foreign Exchange"</item>
+  <item>"Funerals"</item>
+  <item>"Furniture"</item>
+  <item>"Gardening"</item>
+  <item>"Groceries"</item>
+  <item>"Hairdresser"</item>
+  <item>"Health  Beauty"</item>
+  <item>"Health Care"</item>
+  <item>"Hotels"</item>
+  <item>"Household"</item>
+  <item>"Ice-cream"</item>
+  <item>"Insurance"</item>
+  <item>"Jewellery"</item>
+  <item>"Kitchens"</item>
+  <item>"Larger Shops"</item>
+  <item>"Laundries"</item>
+  <item>"Libraries"</item>
+  <item>"Lottery"</item>
+  <item>"Music"</item>
+  <item>"News Agents"</item>
+  <item>"Newspapers"</item>
+  <item>"Off Licence"</item>
+  <item>"Office Services"</item>
+  <item>"Open 24 Hours"</item>
+  <item>"Opticians"</item>
+  <item>"Parks"</item>
+  <item>"Petrol"</item>
+  <item>"Pets"</item>
+  <item>"Phones (Sales)"</item>
+  <item>"Photography"</item>
+  <item>"Post Boxes"</item>
+  <item>"Post Offices"</item>
+  <item>"Property"</item>
+  <item>"Public Services"</item>
+  <item>"Public Telephones"</item> 
+  <item>"Pubs"</item>
+  <item>"Restaurants"</item>
+  <item>"Schools"</item>
+  <item>"Shoes"</item>
+  <item>"Shopping Centres/Retail Parks"</item> 
+  <item>"Solicitors"</item>
+  <item>"Sports"</item>
+  <item>"Sports Wear"</item>
+  <item>"Stationery"</item>
+  <item>"Streets"</item>
+  <item>"Supermarkets"</item>
+  <item>"Sweets"</item>
+  <item>"Take Aways"</item>
+  <item>"Tanning Cabs"</item>
+  <item>"Tatoo"</item>
+  <item>"Toilets"</item>
+  <item>"Tourist"</item>
+  <item>"Towns"</item>
+  <item>"Toys"</item>
+  <item>"Transport"</item>
+  <item>"Travel Agents"</item>
+  <item>"Trophies"</item>
+  <item>"Vets"</item>
+  <item>"Web Only"</item>
+</string-array>    
+</resources>

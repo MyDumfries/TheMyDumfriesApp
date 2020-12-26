@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/Mapbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/mapbutton" />
+         <Button
+        android:id="@+id/UpdateLocation_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Update Location" />
+         
+        <ImageButton
+            android:id="@+id/newlocationinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:src="@drawable/info" />
+        
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UpdateLocation_Button"
+        android:layout_centerHorizontal="true"
+        android:text="Your Current Location is :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/purple" />
+        
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:text="Latitude    : "
+            android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/purple" />
+
+            <TextView
+                android:id="@+id/latitude_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:layout_toRightOf="@+id/textView2"
+                android:text="lat"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:text="Longitude : "
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/purple" />
+
+            <TextView
+                android:id="@+id/longitude_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView3"
+                android:layout_below="@+id/latitude_textView"
+                android:layout_toRightOf="@+id/textView3"
+                android:text="long"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/longitude_textView"
+            android:text="Place Name"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/purple" />
+
+        <EditText
+            android:id="@+id/editText_PlaceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/yellow"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/textView5"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/UpdateDatabase_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText_PlaceName"
+            android:layout_centerHorizontal="true"
+            android:text="    Add This Location to Database    " />
+
+        <Button
+        android:id="@+id/UpdateSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/UpdateDatabase_button"
+        android:layout_below="@+id/UpdateDatabase_button"
+            android:visibility="invisible"
+        android:text="Update Site" />
+    
+    <Button
+        android:id="@+id/ClearData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/UpdateDatabase_button"
+        android:layout_below="@+id/UpdateDatabase_button"
+        android:visibility="invisible"
+        android:text="Clear Data" />
+    
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/UpdateSite"
+        android:scrollbars="horizontal|vertical" >
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                    <TableLayout
+                        android:id="@+id/tableLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                    </TableLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+    </RelativeLayout>
+    </LinearLayout>

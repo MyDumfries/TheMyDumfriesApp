@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:text="MAIN MENU"
+        android:textColor="@color/purple"
+        android:textSize="@dimen/Heading" >
+
+    </TextView>
+
+    
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/tweets"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:text="Dumfries Tweets"
+            android:textColor="@color/red"
+            android:textSize="@dimen/menuitem" >
+
+        </TextView>
+
+		<ImageButton
+		    android:id="@+id/tweetsinfo"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:src="@drawable/info" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/places"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:text="Dumfries Places"
+            android:textColor="@color/purple"
+            android:textSize="@dimen/menuitem" >
+
+        </TextView>
+
+		<ImageButton
+		    android:id="@+id/placesinfo"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:src="@drawable/info" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/whatson"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:text="What&apos;s On"
+            android:textColor="@color/red"
+            android:textSize="@dimen/menuitem" >
+
+        </TextView>
+
+		<ImageButton
+		    android:id="@+id/whatsoninfo"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:src="@drawable/info" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/messageboard"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:text="Message Boards"
+            android:textColor="@color/purple"
+            android:textSize="@dimen/menuitem" >
+
+        </TextView>
+
+		<ImageButton
+		    android:id="@+id/messageboardinfo"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:src="@drawable/info" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/today"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:text="Dumfries Today"
+            android:textColor="@color/red"
+            android:textSize="@dimen/menuitem" >
+        </TextView>
+        <ImageButton
+            android:id="@+id/todayinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/info" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/people"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:text="Dumfries People"
+            android:textColor="@color/purple"
+            android:textSize="@dimen/menuitem" >
+        </TextView>
+		<ImageButton
+		    android:id="@+id/peopleinfo"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:src="@drawable/info" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <TextView
+            android:id="@+id/feedback"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:text="Send Feedback"
+            android:textColor="@color/red"
+            android:textSize="@dimen/menuitem" >
+
+        </TextView>
+        <ImageButton
+            android:id="@+id/hiddeninfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/info"
+            android:visibility="invisible"/>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/caul" />
+
+</LinearLayout>

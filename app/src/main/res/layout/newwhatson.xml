@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@color/background"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/TextView_When"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When"
+                android:textColor="@color/purple"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/EditText_When"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:background="@color/yellow"
+                android:layout_width="fill_parent"
+                android:textSize="@dimen/Heading"
+                android:maxLines="1"></EditText>
+
+            <TextView
+                android:id="@+id/TextView_Until"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Until"
+                android:textColor="@color/purple"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/EditText_Until"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:background="@color/yellow"
+                android:maxLines="1"
+                android:textSize="@dimen/Heading"
+                android:maxLength="30"></EditText>
+
+            <TextView
+                android:id="@+id/What"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What"
+                android:textColor="@color/purple"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/EditText_What"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:background="@color/yellow"
+                android:textSize="@dimen/Heading"
+                android:maxLines="1"></EditText>
+
+            <TextView
+                android:id="@+id/TextView_Where"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Where"
+                android:textColor="@color/purple"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/EditText_Where"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:textSize="@dimen/Heading"
+                android:maxLines="1">
+
+            </EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TextView_Link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Link"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/EditText_Link"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:textSize="@dimen/Heading"
+                android:maxLines="1"></EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TextView_Cat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/Spinner_Cat"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:textSize="@dimen/Heading"
+                android:layout_width="fill_parent"></Spinner>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/CancelButton"
+                    android:text="Cancel"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="74dp"></Button>
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/SaveButton"
+                    android:text="Save"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60dp"></Button>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

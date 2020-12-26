@@ -1,0 +1,10 @@
+A list of Tweets by Tweeters selected for their Dumfries Links. Some, like ITV Border and BBC South of Scotland, cover a wider area than Dumfries, but as many of their Tweets will be relative, they have been included.
+
+If there is anyone missing from the list who you think should be included, please email me at stuart@mydumfries.com.
+
+You can click on links within the Tweets, and also by Long Clicking on a Tweet, you will have the option to 
+1. Refresh Tweets (load Tweets posted since you last downloaded)
+2. Reload Previous Tweets (the Tweets from your last session)
+3. Reload last 100 Tweets
+4. Post a Status Update of your own, either over Wifi or via SMS Text Message (your mobile phone company may charge for this)
+5. Retweet the post by either Wifi or SMS.

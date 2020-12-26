@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:orientation="horizontal" 
+    android:background="@color/background"
+    android:padding="6dip">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" 
+        android:layout_marginRight="6dip"/>
+
+    <TextView
+        android:id="@+id/toptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatar"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp" 
+        android:textColor="@color/red"/>
+
+    <TextView
+        android:id="@+id/bottomtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toptext"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/avatar"
+        android:paddingLeft="5dp"
+        android:textColor="@color/purple"/>
+
+    <TextView
+        android:id="@+id/footertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bottomtext"
+        android:layout_toRightOf="@+id/avatar"
+        android:paddingRight="5dp"
+        android:textColor="@color/blue"/>
+
+</RelativeLayout>

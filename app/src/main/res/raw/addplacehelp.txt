@@ -1,0 +1,5 @@
+If you are standing at the place you want to add, you can click on Update Location to add it. Add a place name, then click on Add This Location to Database. This will add it to the MyDumfries.com database.  If you don't have a network connection at the time , the details will be added to a database on your device. When you have an internet connection click on Update Site to add it to MyDumfries.com.
+
+If you are not at the place, you can click on Show on Map and long click the location on the map to get it's latitude and longitude. After that, the procedure is the same as above.
+
+Once you have uploaded the details to the site, you can use the MyDumfries Placefinder editor at <a href="http://www.mydumfries.com/PlaceFinderGoogleMapSetUp.php">www.mydumfries.com/PlaceFinderGoogleMapSetUp.php</a> to add more details. 

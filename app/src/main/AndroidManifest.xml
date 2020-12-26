@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mydumfries.themydumfriesapp"
+    android:versionCode="6"
+    android:versionName="0.6">
+
+    <permission
+        android:name="com.mydumfries.themydumfriesapp.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.mydumfries.themydumfriesapp.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:icon="@drawable/mydumfriesicon"
+        android:label="@string/app_name">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlaceFinder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DumfriesPlaceFinderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HelpActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PlaceFinderGoogleMapsAPI" />
+        <activity android:name=".DumfriesToday" />
+        <activity android:name=".ShowPhoto"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DumfriesPeople"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewPersonActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WhatsOn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SendEmail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TwitterActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PostTweet" />
+        <activity
+            android:name=".NewWhatsOnActivity"
+            android:screenOrientation="portrait" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.mydumfries.themydumfriesapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDt6AfBSaZKvzsDZYGry4YaDAiXtFPnJTk" />
+        <!-- android:value="AIzaSyB3q-XvboyoCPwAI_UPPlcOMjRqPas9-L8"  RELEASE KEY -->
+        <!-- android:value="AIzaSyBI4Yu4I29kh2WqArP0Y_pA-5-geWbrdIc"  DEBUG VALUE -->
+
+    </application>
+
+</manifest>

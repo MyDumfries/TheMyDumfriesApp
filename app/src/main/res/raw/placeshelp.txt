@@ -1,0 +1,13 @@
+The highlight of the app, a searchable database of places in Dumfries.
+
+You can download the database to your device, it will take the total room used by the app to about 7MB, the actual data doesn't actually take up that much room.
+
+You can either search by typing in a search term or picking a category. You will then get a list of matching places.
+
+Places are listed in order of their distance from your current location. You can use the Refresh Button to re-order the list as you move around. This is especially useful for the "Within XXXm" category.
+
+Long click on the place for more information and the option to see it on a map, or click on the Goto Map button to see all places on the map.
+
+Once in the map, you can click on the box to be taken to your maps app for directions (certainly works with Google Maps anyway!).
+
+If there is a place missing from the map, you can click on Add Place to add. Instructions on how to do this are included in the Add Place screen.

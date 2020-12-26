@@ -1,0 +1,7 @@
+The App will display up to 4 pictures taken in Dumfries today, to let you see how things are looking today (network connection required). More pictures may be available at www.mydumfries.com/DumfriesToday.php (or there may be none!).
+
+If you want to contribute, press the camera button to upload a photo to the site.  You can also add a caption up to 100 characters (include your name if you want to be credited).
+
+The pictures will usually be removed from mydumfries.com after a day, but if I like the picture, I may keep it and add it to one of the other galleries.
+
+A "bug" which I am trying to fix is that most Camera Apps seem to store a copy of the picture in the directory DCIM/Camera.  If that directory is on an External SDcard, I have not found a way to delete the picture, so you may want to do that yourself manually.

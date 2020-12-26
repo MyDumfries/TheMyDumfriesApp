@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:isScrollContainer="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextView_Surname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Surname"
+                android:textColor="@color/purple"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/EditText_Surname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:maxLines="1"></EditText>
+
+            <TextView
+                android:id="@+id/TextView_FirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name"
+                android:textColor="@color/purple"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/EditText_FirstName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:maxLines="1"></EditText>
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="6dp"
+                tools:layout_marginTop="10dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TextView_Birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Year of Birth"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold"
+                    tools:layout_marginTop="10dp"></TextView>
+
+                <EditText
+                    android:id="@+id/EditText_Birth"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    tools:layout_paddingTop="10dp"
+                    tools:layout_marginTop="10dp"></EditText>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="e-mail Address"
+                android:textColor="@color/purple"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/EditText_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:inputType="textEmailAddress"
+                android:maxLines="1">
+
+            </EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TextView_facebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook Profile (i.e. Stuart.McLaren.3)"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold"></TextView>
+
+                <ImageButton
+                    android:id="@+id/facebookinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/info" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/EditText_facebook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:maxLines="1"></EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TextView_twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Twitter Profile (i.e. MyDumfries)"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold"></TextView>
+
+                <ImageButton
+                    android:id="@+id/twitterinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/info" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/EditText_twitter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:maxLines="1"></EditText>
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="6dp"
+                tools:layout_marginTop="10dp"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TextView_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="password"
+                    android:textColor="@color/purple"
+                    tools:layout_marginTop="10dp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/EditText_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow"
+                    android:inputType="textPassword"
+                    tools:layout_marginTop="10dp"
+                    android:maxLines="1"></EditText>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="6dp"
+                tools:layout_marginTop="10dp"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TextView_confirmpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Confirm Password"
+                    android:textColor="@color/purple"
+                    tools:layout_marginTop="10dp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/EditText_confirmpassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow"
+                    android:inputType="textPassword"
+                    tools:layout_marginTop="10dp"
+                    android:maxLines="1"></EditText>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/CancelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="74dp"
+                    android:text="Cancel"></Button>
+
+                <Button
+                    android:id="@+id/SaveButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="60dp"
+                    android:text="Save"></Button>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/TextView_blurb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="blurb"
+                android:textColor="@color/purple"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
